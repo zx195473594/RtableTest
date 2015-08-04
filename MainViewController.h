@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  RtableTest
 //
 //  Created by Ibokan on 15/8/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

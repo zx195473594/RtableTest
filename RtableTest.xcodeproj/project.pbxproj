@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		0FF3B5781B7049BF00610DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B5771B7049BF00610DCE /* main.m */; };
 		0FF3B57B1B7049BF00610DCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B57A1B7049BF00610DCE /* AppDelegate.m */; };
-		0FF3B57E1B7049BF00610DCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B57D1B7049BF00610DCE /* ViewController.m */; };
 		0FF3B5811B7049BF00610DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B57F1B7049BF00610DCE /* Main.storyboard */; };
 		0FF3B5831B7049BF00610DCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B5821B7049BF00610DCE /* Images.xcassets */; };
 		0FF3B5861B7049BF00610DCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B5841B7049BF00610DCE /* LaunchScreen.xib */; };
 		0FF3B5921B7049BF00610DCE /* RtableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B5911B7049BF00610DCE /* RtableTestTests.m */; };
+		0FF3B59D1B70522B00610DCE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B59C1B70522B00610DCE /* MainViewController.m */; };
+		0FF3B59F1B70533600610DCE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF3B59E1B70533600610DCE /* libicucore.dylib */; };
+		0FF3B5A81B7053B100610DCE /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B5A11B7053B100610DCE /* License.html */; };
+		0FF3B5A91B7053B100610DCE /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B5A21B7053B100610DCE /* License.rtf */; };
+		0FF3B5AA1B7053B100610DCE /* RegexKitLite.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FF3B5A41B7053B100610DCE /* RegexKitLite.html */; };
+		0FF3B5AB1B7053B100610DCE /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B5A51B7053B100610DCE /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0FF3B5AC1B7053B100610DCE /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3B5A71B7053B100610DCE /* RTLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,22 @@
 		0FF3B5771B7049BF00610DCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FF3B5791B7049BF00610DCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FF3B57A1B7049BF00610DCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0FF3B57C1B7049BF00610DCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FF3B57D1B7049BF00610DCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0FF3B5801B7049BF00610DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FF3B5821B7049BF00610DCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0FF3B5851B7049BF00610DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0FF3B58B1B7049BF00610DCE /* RtableTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RtableTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF3B5901B7049BF00610DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF3B5911B7049BF00610DCE /* RtableTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RtableTestTests.m; sourceTree = "<group>"; };
+		0FF3B59B1B70522B00610DCE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0FF3B59C1B70522B00610DCE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0FF3B59E1B70533600610DCE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0FF3B5A11B7053B100610DCE /* License.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		0FF3B5A21B7053B100610DCE /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		0FF3B5A31B7053B100610DCE /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		0FF3B5A41B7053B100610DCE /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		0FF3B5A51B7053B100610DCE /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		0FF3B5A61B7053B100610DCE /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
+		0FF3B5A71B7053B100610DCE /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF3B59F1B70533600610DCE /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,10 @@
 		0FF3B5691B7049BF00610DCE = {
 			isa = PBXGroup;
 			children = (
+				0FF3B5A01B7053B100610DCE /* RegexKitLite-4.0 */,
+				0FF3B59E1B70533600610DCE /* libicucore.dylib */,
+				0FF3B59B1B70522B00610DCE /* MainViewController.h */,
+				0FF3B59C1B70522B00610DCE /* MainViewController.m */,
 				0FF3B5741B7049BF00610DCE /* RtableTest */,
 				0FF3B58E1B7049BF00610DCE /* RtableTestTests */,
 				0FF3B5731B7049BF00610DCE /* Products */,
@@ -83,8 +102,6 @@
 			children = (
 				0FF3B5791B7049BF00610DCE /* AppDelegate.h */,
 				0FF3B57A1B7049BF00610DCE /* AppDelegate.m */,
-				0FF3B57C1B7049BF00610DCE /* ViewController.h */,
-				0FF3B57D1B7049BF00610DCE /* ViewController.m */,
 				0FF3B57F1B7049BF00610DCE /* Main.storyboard */,
 				0FF3B5821B7049BF00610DCE /* Images.xcassets */,
 				0FF3B5841B7049BF00610DCE /* LaunchScreen.xib */,
@@ -117,6 +134,20 @@
 				0FF3B5901B7049BF00610DCE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FF3B5A01B7053B100610DCE /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3B5A11B7053B100610DCE /* License.html */,
+				0FF3B5A21B7053B100610DCE /* License.rtf */,
+				0FF3B5A31B7053B100610DCE /* RegexKitLite.h */,
+				0FF3B5A41B7053B100610DCE /* RegexKitLite.html */,
+				0FF3B5A51B7053B100610DCE /* RegexKitLite.m */,
+				0FF3B5A61B7053B100610DCE /* RTLabel.h */,
+				0FF3B5A71B7053B100610DCE /* RTLabel.m */,
+			);
+			path = "RegexKitLite-4.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF3B5811B7049BF00610DCE /* Main.storyboard in Resources */,
+				0FF3B5A91B7053B100610DCE /* License.rtf in Resources */,
 				0FF3B5861B7049BF00610DCE /* LaunchScreen.xib in Resources */,
+				0FF3B5AA1B7053B100610DCE /* RegexKitLite.html in Resources */,
+				0FF3B5A81B7053B100610DCE /* License.html in Resources */,
 				0FF3B5831B7049BF00610DCE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF3B57E1B7049BF00610DCE /* ViewController.m in Sources */,
+				0FF3B5AC1B7053B100610DCE /* RTLabel.m in Sources */,
 				0FF3B57B1B7049BF00610DCE /* AppDelegate.m in Sources */,
+				0FF3B59D1B70522B00610DCE /* MainViewController.m in Sources */,
+				0FF3B5AB1B7053B100610DCE /* RegexKitLite.m in Sources */,
 				0FF3B5781B7049BF00610DCE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +450,7 @@
 				0FF3B5971B7049BF00610DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF3B5981B7049BF00610DCE /* Build configuration list for PBXNativeTarget "RtableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				0FF3B59A1B7049BF00610DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
